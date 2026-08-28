@@ -1,0 +1,21 @@
+{
+  "name": "my-pi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pi agent config with custom extensions",
+  "keywords": [
+    "pi-package"
+  ],
+  "scripts": {
+    "postinstall": "bash scripts/patch-node-modules.sh"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}

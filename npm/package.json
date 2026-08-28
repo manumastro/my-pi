@@ -1,0 +1,1 @@
+{"name":"pi-extensions","private":true,"dependencies":{"pi-context-saver":"^1.0.1","pi-dcp":"^0.2.0","pi-provider-kiro":"^0.9.3"}}

@@ -1,0 +1,32 @@
+auth.json
+models.json
+*.jsonl
+sessions/
+context-saver/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+terminals/
+test-models-results.json
+free.json
+models.json
+*.map
+auth.json.backup
+auth.json.backup-*
+cpa-accounts*.zip
+cpa_accounts/
+
+# Dependencies
+node_modules/
+extensions/node_modules/
+scripts/__pycache__/
+

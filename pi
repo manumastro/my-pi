@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Wrapper: sync stack prima che Pi carichi models.json (da qualsiasi cwd).
+exec "$(dirname "$0")/scripts/pi.sh" "$@"
